@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Padaria Pão e Arte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: lemonchiffon">
+    <header>
+        <h1>Bem-vindo à Padaria Pão e Arte!</h1>
+    </header>
+    <main>
+        <section id="vitrine" style="text-align: center;">
+            <h2 style="font-size: x-large;" style="text-align: center;">Conheça nossos deliciosos produtos!</h2>
+            <p style="font-size: x-large;" style="text-align: center;">Oferecemos uma ampla variedade de pães, bolos, doces e salgados fresquinhos todos os dias.</p>
+            <img src="/images/vitrine.jpg" alt="Vitrine de produtos da padaria" height="200px" width="500px" style="text-align: center;"/>
+        </section>
+    </main>
+    <nav>
+        <ul>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="usuario.html">Área do Usuário</a></li>
+        </ul>
+    </nav>
+    
+    <footer>
+        <p>Pão e Arte 2023.</p>
+    </footer>
+</body>
+
+</html>
+
+CÓDIGO DO USUARIO: 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Padaria Pão e Arte - Usuário</title>
+</head>
+<body style="background-color: lemonchiffon">
+    <h1>Bem-vindo(a) à Padaria Pão e Arte</h1>
+    <p>Por favor, preencha os detalhes abaixo para fazer seu pedido:</p>
+    <form action="/pedido" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required><br>
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto" required>
+            <option value="">Selecione um produto</option>
+            <option value="pao">Pão</option>
+            <option value="bolo">Bolo</option>
+            <option value="salgado">Salgado</option>
+            <option value="doce">Doce</option>
+        </select><br>
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required><br>
+        <input type="submit" value="Fazer Pedido">
+    </form>
+</body>
+</html>
+
+CODIGO  DO  CONTATO:
+
+<!DOCTYPE html>
+<html lang="en">
+<head > 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body style="background-color: lemonchiffon">
+    <h1 style="font-size: x-large;">Quer falar conosco? </h1>
+    <img src="/images/images.png" style="height: 200px;" style="width: 100px;"> 
+    <p style="font-size: x-large;">Encontre aqui algumas formas de falar conosco:</p>
+    <p style="font-size: x-large;"><em>Email: PaoeArte@gmail.com</em></p>
+    <p style="font-size: x-large;"><em> Telefone: (31)96786-7463</em></p>
+    <p style="font-size: x-large;"><em> Endereço: Rua 123, 13A, Jardim das Flores </em></p>
+
+</body>
+</html>
+
+CÓDIGO DOS PRODUTOS:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    
+</head >
+<body style="background-color: lemonchiffon" >
+    <h1>Nossos produtos são a própria qualidade!</h1>
+    <img src="./images/Pao-doce-de-creme-e-coco.jpg" alt="Pães doces para toda a famîlia!" style="height: 200px;" width="500px">
+                <p><em>Venha e confira o delicioso pão doce de coco!</em></p> 
+                <p style="font-size: medium;">A padaria Pão e Arte fornece o maravilhoso pão doce de creme com coco, e hoje está tendo a maior promoção do mercado! Por R$5,00 você e sua famîlia leva um pacote de 05 pães doces. Garanta o seu agora!</p>
+    <img src="/images/bolo de padaria.jpg" alt="Bolos deliciosos" style="height: 200px;" width="500px">        
+                <p><em>Bolo feito em casa!</em></p>
+                <p> Este bolo com creme fofinho é produzido na nossa própria padaria. Não perca e garanta já o seu!</p>  
+    <img src="/images/salgado_diplomata_o_salgado_de_padaria_original_10920_600.jpg " style="height: 200px;" width="500px">
+                <p><em>Salgados feitos para você!</em></p>
+                <p>O salgado é o melhor da região, são bem recheados e gostosos. Não fique fora dessa!</p>
+    <img src="/images/sonho.jpg" style="height: 200px;" style="width: 200px;"> 
+                <p><e>Sonhos quentinhos para toda a sua famîlia.</e></p>
+                <p>O sonho está feito! Para você tomar aquele café da manhã sonhando acordado!</p>
+</body>
+</html>
+
+CÓDIGO DO  "SOBRE NÓS":
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+</head>
+<body style="background-color: lemonchiffon">
+    <section id="sobre-nos">
+        <h2>Nossa História</h2>
+        <img src="/images/paes-padarias-copacabana-rio-de-janeiro.jpg" height="200px" width="500px">
+        
+        <p>A Padaria Pão e Arte foi fundada em 1970 por João e Maria, um casal apaixonado pela arte de fazer pães e
+            doces. Desde então, temos servido nossa comunidade com produtos frescos e saborosos, feitos com
+            ingredientes de alta qualidade.</p>
+        <h2>Nossa Missão</h2>
+        <p>Nossa missão é proporcionar a melhor experiência aos nossos clientes, oferecendo produtos de qualidade,
+            atendimento amigável e um ambiente acolhedor para todos.</p>
+    </section>
+</body>
+</html>
